@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宇宙波動診断 - Cosmic Vibration Diagnosis</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700&display=swap');
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            font-family: 'Zen Old Mincho', serif;
+        }
+
+        .background-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: url('assets/bg.png') no-repeat center center/cover;
+            filter: brightness(0.8);
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.8) 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .title-img {
+            max-width: 400px;
+            /* Adjustable for square */
+            width: 80%;
+            height: auto;
+            margin-bottom: 2rem;
+            filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.6));
+            animation: float 3s ease-in-out infinite;
+            pointer-events: none;
+            /* Prevent blocking clicks */
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+                filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.6));
+            }
+
+            50% {
+                transform: translateY(-10px);
+                filter: drop-shadow(0 0 35px rgba(255, 215, 0, 0.8));
+            }
+
+            100% {
+                transform: translateY(0px);
+                filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.6));
+            }
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 4rem;
+            letter-spacing: 0.2rem;
+            opacity: 0.9;
+        }
+
+        .start-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 215, 0, 0.5);
+            color: #fff;
+            padding: 1.2rem 4rem;
+            font-size: 1.5rem;
+            letter-spacing: 0.2rem;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            border-radius: 50px;
+            backdrop-filter: blur(5px);
+            text-decoration: none;
+            font-family: 'Zen Old Mincho', serif;
+        }
+
+        .start-btn:hover {
+            background: rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 30px rgba(255, 215, 0, 0.4);
+            transform: scale(1.05);
+            border-color: #ffd700;
+        }
+
+        .start-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+            transition: 0.5s;
+        }
+
+        .start-btn:hover::before {
+            left: 100%;
+        }
+
+        @keyframes pulse {
+            0% {
+                text-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+            }
+
+            50% {
+                text-shadow: 0 0 35px rgba(255, 215, 0, 0.9);
+            }
+
+            100% {
+                text-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+            }
+        }
+
+        /* Particles or simple animations can be added via JS later */
+    </style>
+</head>
+
+<body>
+    <div class="background-container"></div>
+    <div class="overlay">
+        <img src="assets/title_16_9.png" alt="宇宙波動診断" class="title-img">
+        <p class="subtitle">あなたの魂が奏でる、真実の響きを聴く</p>
+        <a href="diagnosis.html" class="start-btn">診断を始める</a>
+    </div>
+</body>
+
+</html>

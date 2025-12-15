@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "text": "新しい環境や人々の中に飛び込むと、エネルギーが湧いてくると感じる。",
+        "dimension": "EI",
+        "weight_positive": "E",
+        "weight_negative": "I"
+    },
+    {
+        "id": 2,
+        "text": "週末は一人で静かに過ごすよりも、賑やかな場所に出かける方が好きだ。",
+        "dimension": "EI",
+        "weight_positive": "E",
+        "weight_negative": "I"
+    },
+    {
+        "id": 3,
+        "text": "会話の中で、聞き手になるよりも話し手になることが多い。",
+        "dimension": "EI",
+        "weight_positive": "E",
+        "weight_negative": "I"
+    },
+    {
+        "id": 4,
+        "text": "考えをまとめる前に、まずは行動に移すことが多い。",
+        "dimension": "EI",
+        "weight_positive": "E",
+        "weight_negative": "I"
+    },
+    {
+        "id": 5,
+        "text": "注目を浴びることや、人前に出ることに抵抗がない。",
+        "dimension": "EI",
+        "weight_positive": "E",
+        "weight_negative": "I"
+    },
+    {
+        "id": 6,
+        "text": "物事の「事実」や「詳細」よりも、「意味」や「可能性」に惹かれる。",
+        "dimension": "SN",
+        "weight_positive": "N",
+        "weight_negative": "S"
+    },
+    {
+        "id": 7,
+        "text": "現実的な解決策よりも、独創的で新しいアイデアを考えるのが好きだ。",
+        "dimension": "SN",
+        "weight_positive": "N",
+        "weight_negative": "S"
+    },
+    {
+        "id": 8,
+        "text": "過去の経験よりも、未来のビジョンを語ることにワクワクする。",
+        "dimension": "SN",
+        "weight_positive": "N",
+        "weight_negative": "S"
+    },
+    {
+        "id": 9,
+        "text": "説明書を隅々まで読むよりも、直感で操作してみるタイプだ。",
+        "dimension": "SN",
+        "weight_positive": "N",
+        "weight_negative": "S"
+    },
+    {
+        "id": 10,
+        "text": "「木を見て森を見ず」になるよりも、全体像を把握することを重視する。",
+        "dimension": "SN",
+        "weight_positive": "N",
+        "weight_negative": "S"
+    },
+    {
+        "id": 11,
+        "text": "決断を下す際、感情よりも論理的な整合性を優先する。",
+        "dimension": "TF",
+        "weight_positive": "T",
+        "weight_negative": "F"
+    },
+    {
+        "id": 12,
+        "text": "議論において、相手を傷つけないことよりも、真実を明らかにすることが重要だと思う。",
+        "dimension": "TF",
+        "weight_positive": "T",
+        "weight_negative": "F"
+    },
+    {
+        "id": 13,
+        "text": "悩み相談を受けた時、共感するよりも具体的な解決策を提案してしまう。",
+        "dimension": "TF",
+        "weight_positive": "T",
+        "weight_negative": "F"
+    },
+    {
+        "id": 14,
+        "text": "「公平さ」は「思いやり」よりも重要な価値観だと思う。",
+        "dimension": "TF",
+        "weight_positive": "T",
+        "weight_negative": "F"
+    },
+    {
+        "id": 15,
+        "text": "物事を分析し、批判的に検証することが得意だ。",
+        "dimension": "TF",
+        "weight_positive": "T",
+        "weight_negative": "F"
+    },
+    {
+        "id": 16,
+        "text": "旅行の計画は、きっちりとスケジュールを立ててから出発したい。",
+        "dimension": "JP",
+        "weight_positive": "J",
+        "weight_negative": "P"
+    },
+    {
+        "id": 17,
+        "text": "締め切りギリギリまで粘るよりも、余裕を持って完了させたい。",
+        "dimension": "JP",
+        "weight_positive": "J",
+        "weight_negative": "P"
+    },
+    {
+        "id": 18,
+        "text": "予期せぬ変更が起きるとストレスを感じる。",
+        "dimension": "JP",
+        "weight_positive": "J",
+        "weight_negative": "P"
+    },
+    {
+        "id": 19,
+        "text": "部屋やデスク周りは常に整理整頓されている方が落ち着く。",
+        "dimension": "JP",
+        "weight_positive": "J",
+        "weight_negative": "P"
+    },
+    {
+        "id": 20,
+        "text": "一度決めたルールや手順は、できるだけ守るべきだと思う。",
+        "dimension": "JP",
+        "weight_positive": "J",
+        "weight_negative": "P"
+    },
+    {
+        "id": 21,
+        "text": "自分の決定や能力に、常に自信を持っている。",
+        "dimension": "Resonance",
+        "weight_positive": "Sun",
+        "weight_negative": "Moon"
+    },
+    {
+        "id": 22,
+        "text": "失敗をしても、すぐに立ち直ることができる。",
+        "dimension": "Resonance",
+        "weight_positive": "Sun",
+        "weight_negative": "Moon"
+    },
+    {
+        "id": 23,
+        "text": "他人の評価よりも、自分の信念を重視する。",
+        "dimension": "Resonance",
+        "weight_positive": "Sun",
+        "weight_negative": "Moon"
+    },
+    {
+        "id": 24,
+        "text": "未来に対して、不安よりも希望を強く感じる。",
+        "dimension": "Resonance",
+        "weight_positive": "Sun",
+        "weight_negative": "Moon"
+    }
+]
